@@ -1,0 +1,8 @@
+PROYECTO_DIR=/home/forest/desarrollo/nature/
+CPP_DIR=${PROYECTO_DIR}/src/
+RECURSOS_DIR=${PROYECTO_DIR}/res/
+BUILD_DIR=${PROYECTO_DIR}/build/
+
+CFLAGS="-I${PROYECTO_DIR}/include  -I${PROYECTO_DIR}/src -I${PROYECTO_DIR}/libs/include -std=c++11"
+CLINK="-L${PROYECTO_DIR}/libs/lib/ -lGLEW  -lGL -lGLU   -lSDL   -lm"
+CXX="g++"
